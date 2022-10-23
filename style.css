@@ -1,0 +1,83 @@
+*{
+   
+    box-sizing: border-box;
+    
+ }
+ 
+ body{
+     width: 100vw;
+     height: 100vh;
+     background-image: url(img/nooteBook.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-color: rgba(0, 0, 0, 0.533);
+     background-blend-mode: darken;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-style: italic;
+
+    
+ }
+ 
+ main{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     color:#fff;
+     font-family: 'Montserrat', sans-serif;
+ }
+ h1{
+     font-size: clamp(2.5rem, 8w, 6.5rem);
+     font-weight: 400;
+ }
+ 
+ p{
+     font-size: clamp(1.2rem, 4vw, 3rem);
+     font-weight: 400;
+     color: #ffffff;
+ }
+ input{
+     width: 200px;
+     height: 40;
+     background-color: #fad712;
+     font-size: 20px;
+     border-style: none;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-top: 20px;
+ }
+ .icones-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+ }
+ .menu,nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+ }
+ a{
+     color: white;
+     padding: 1px;
+     text-decoration: none;
+ }
+ 
+ img{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+ }
+ 
