@@ -1,146 +1,186 @@
-*{
-    box-sizing: border-box;   
- }
- body{
-     width: 100vw;
-     height: 100vh;
-    background-image: url(img/nooteBookEndCofe.jpg);
-     background-color: rgb(121, 115, 115);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
-     background-blend-mode: darken;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     font-style: italic;
- }
- 
- main{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 20px;
-     color:#ffffff;
-     font-family: 'Montserrat', sans-serif;
- }
- h1{
-     font-size: clamp(2.5rem, 8w, 6.5rem);
-     font-weight: 400;
- }
- 
- p{
-     font-size: clamp(1.2rem, 4vw, 3rem);
-     font-weight: 400;
-     color: #ffffff;
- }
- input{
-     width: 200px;
-     height: 40;
-     background-color: #fad712;
-     font-size: 20px;
-     border-style: none;
-     border-radius: 5px;
-     cursor: pointer;
-     margin-top: 20px;
- }
- .rodape{
 
-    
-     
- }
- ul.icones-sociais{
-     text-align: center
-     
- }
- .menu,nav{
-     text-align: right;
-    position:fixed;
-    top: 0;
-    left: 1px;
-    background-color:rgb(19, 19, 117);
-    list-style:none;
-    display: flex;
-    width: 100%;
-    height: 100px;
-    border: 1px solid rgb(0, 4, 255);
-    justify-content: flex-end;
-    align-items: center;
-    gap: 10px;
- }
- .menu,nav:hover{
-     color: grey;
- }
- .menu,a{
-    color: white;
-    padding: 0px;
-    text-decoration: none;
-    
-   
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/nooteBookEndCofe.jpg);
+  background-repeat: no-repeat;
+  background-color: rgb(158, 159, 160);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
 }
- 
- .img1{
-    position:absolute;
-    top:0px;
-    left:0px;
-    height: 96px;
-    width: 96px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    
- }
- .img2{
-    height: 300px;
-    width: 200px;
 
- }
-    
- .title{
-     text-align:left;
-     position: relative;  
- }
- .habilidde{
-     text-align: center;
- }
- .paragrafo2{
-width: 100%;
-height: 100px;
-position: absolute;
-text-align: center;
-bottom: 0;
-left: 0;
-color: #ffffff;
- }
- img{
-    width: 100%;
-    height: 100%;
-    height: 425px;
-    width: 225px;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid;
-    display: block;
-    font-size: 12px;
-    font-weight: 300;
-    color:rgb(102 102 102);
-    text-decoration: line-through;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #0c0b0b;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: clamp(2.5rem, 8w, 6.5rem);
+  font-weight: 400;
+}
+
+p {
+  font-size: clamp(1.2rem, 4vw, 3rem);
+  font-weight: 400;
+  color: #141313;
+}
+input {
+  width: 200px;
+  height: 40;
+  background-color: #fad712;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.icon1 {
+  position: absolute;
+  right:2px;
+  height: 100%;
+}
+.icon1 img{
+  display: block;
+}
+ul.icones-sociais {
+  text-align: center;
+}
+@media (min-width: 768px) {
+
+  .menu,nav {
+
+      flex-direction: row;
+
+      justify-content: space-between;
+
+  }
+
+}
+.menu,nav {
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 1px;
+  background-color: rgb(19, 19, 117);
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  border: 1px solid rgb(29, 29, 32);
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+header a:hover {
+  color: rgb(110, 105, 105);
+}
+.menu,
+a {
+  color: white;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.img1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.img2 {
+  height: 300px;
+  width: 200px;
+}
+
+.title {
+  text-align: left;
+  position: relative;
+}
+.habilidde {
+  text-align: center;
+}
+.paragrafo2 {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  color: #0c0b0b;
+}
+.boxx {
+  width: 100%;
+  height: 100%;
+  height: 400px;
+  width: 200px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid;
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  color: rgb(102 102 102);
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.box {
+  height: 425px;
+  width: 225px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+.icon {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(12, 12, 14, 0.794);
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.sobreimg {
+  height: 500px;
+  width: 500px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.icon1 {
+  display: inline;
+  width: 100%;
+  height: 100px;
+}
+.paragrafo3{
     text-align: center;
-     
-     
- }
- .box{
-    height: 425px;
-    width: 225px;
-    border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    display: inline-block;
+    display: flex;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
     
-    
+}
+.p3{
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+}
 
-    
- }
- 
