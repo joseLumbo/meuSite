@@ -1,52 +1,144 @@
 <!DOCTYPE html>
-<html lang="Pt-BR">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Sobre mim</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>José Lumbo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <main>
-        <header>
-            <div class="menu">
-                <nav>
-                    <a href="index.html">Inicio</a>
-                    <a href="Habilidades.html">Habilidades</a>
-                    <a href="Contato.html">Contato</a>
-
-                </nav>
-            </div>
-            <img class="img1" src="img/js.jpg" alt="foto jose">
-            <div class="title">
-                <h1>
-                    Seja bem vindo a minha pagina
-                </h1>
-                <h2>Vem estar mais perto da tecnologia comigo!</h2>
-                <h3>José Lumbo, <span> Desenvolvedor FrontEnd</span>
-                </h3>
-                <input type="button" value="Saiba mais">
-                <input type="button" value="Sobre mim">
-            </div>
-        </header>
-    </main>
-    <footer>
-        <div class="icon1">
-            <a href="https://www.linkedin.com/in/jose-lumbo-densenvolvedor-web-full-stack/" target="_blank"><img
-                    src="icon/icons8-linkedin-circundado.svg" alt="Icone do Linkedin"></a></li>
-            <a href="https://github.com/joseLumbo" target="_blank"><img src="icon/icons8-github.svg"
-                    alt="Icone do GitHub"></a></li>
+  <!-- Cabeçalho -->
+  <header id="header">
+    <div id="header">
+      <h2 id="brand" class="nome">José Lumbo</h2>
+      <nav id="brand" class="menu-nav">
+        <a href="#header" class="menu-a">Início</a>
+        <a href="#expertise-areas" class="menu-a">Habilidades</a>
+        <a href="#about" class="menu-a">Sobre</a>
+        <a href="#contact" class="menu-a">Contato</a>
+      </nav>
+      <div class="banner active">
+        <span class="square"></span>
+        <h1> Seja bem vindo a minha pagina</h1>
+        <h2>Vem estar mais perto da tecnologia comigo!</h2>
+        <h3>José Lumbo, <span> Desenvolvedor FrontEnd</span></h3>
+      </div>
+  </header><br><br><br><br>
+  <!-- Áreas de atuação -->
+  <main id="expertise-areas" class="text-image-section">
+    <div class="title">
+      <h1 class="habilidde">
+        Habilidades
+      </h1>
+      <div class="box">
+        <img class="boxx" src="img/html.svg" alt="foto de html">
+        <span>HTML</span>
+      </div>
+      <div class="box">
+        <img class="boxx" src="img/css.svg" alt="fot de css">
+        <span>CSS3</span>
+      </div>
+      <div class="box">
+        <img class="boxx" src="img/javascript.svg" alt="foto de javascript">
+        <span>javascript</span>
+      </div>
+      <div class="box">
+        <img class="boxx" src="img/typescript.svg" alt="foto de typescript">
+        <span>Typescript</span>
+      </div>
+      <div class="box">
+        <img class="boxx" src="img/react.svg" alt="foto de react">
+        <span>React</span>
+      </div>
+      <div class="box">
+        <img class="boxx" src="img/java.svg" alt="foto de java">
+        <span>java</span>
+      </div>
+      <div class="box">
+        <img class="boxx" src="img/spring.svg" alt="foto de spring boot">
+        <span>SpringBoot</span>
+      </div>
+    </div>
+  </main><br><br><br><br>
+  <!-- Sobre mim -->
+  <section id="about">
+    <h1 class="sobre">sobre mim</h1>
+    <div id="other-services">
+      <div class="service">
+        <img src="img/js.jpg" alt="fotojose" />
+        <div class="service-info">
+          <h4>DESENVOLVEDOR WEB FRONT END</h4>
+          <p>
+            Sou desenvolvedor front-end Junior, Crio e Desenvolvo Sites para Agências e Profissionais de Design. Agência de Criação e Desensenvolvimento Web! Se me contratares terás Programador de Alta Qualidade!
+          </p>
         </div>
-
-        <p class="paragrafo2">&copy; José Lumbo 2022</p>
-    </footer>
+      </div>
+      <div class="service">
+        <img src="img/fundo2.webp" alt="Construção" />
+        <div class="service-info">
+          <h4>Construção de Paginass Web</h4>
+          <p>
+            A primeira atribuição desse profissional, como mencionamos, é a construção da interface do software sendo
+            desenvolvido. Não na parte artística, mas principalmente quanto à técnica, no desenvolvimento do código que
+            dá origem a todos esses elementos visuais.
+          </p>
+        </div>
+      </div>
+      <div class="service">
+        <img src="img/company.jpg" alt="Empresa" />
+        <div class="service-info">
+          <h4>Trabalho feito por mim</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Veritatis, numquam accusantium! Ex dolores, autem itaque adipisci,
+            facilis quam eligendi consequuntur reprehenderit quas aliquid
+            corrupti quibusdam voluptates. Repellendus suscipit quo veniam?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section><br><br><br><br><br><br>
+  <!-- Contato -->
+  <section id="contact" class="text-image-section">
+    <div id="contact-information" class="text-container">
+      <p class="section-subtitle">Entre em contato</p>
+      <span id="msg-erro"></span>
+      <form class="form" id="form" method="POST">
+        <div class="form-control">
+          <input type="text" id="nome"  maxlength="30" placeholder="Nome" />
+          <input type="email" id="email"  maxlength="40" placeholder="E-mail" />
+        </div>
+        <input type="number" id="tel"  max="30" placeholder="Telefone" />
+        <textarea id="message"  maxlength="1000" placeholder="Sua mensagem..."></textarea><br>
+        <input id="btn" type="submit" value="Enviar" class="btn" />
+      </form>
+    </div>
+  </section>
+  <!-- Rodapé -->
+  <footer id="footer">
+    <div class="contact-info">
+      <div class="footer-brand">
+        <h2> &copy; José Lumbo</h2>
+        <p>Desenvolvedor certo para a sua empresa</p>
+      </div>
+      <p><i class="bi bi-geo-alt"></i> Rua jardim Umarizal, 776</p>
+      <p><i class="bi bi-telephone"></i> (11) 95923-7256</p>
+      <p><i class="bi bi-envelope"></i> joselumbo77@.com</p>
+      <div class="social-networks">
+        <p>Siga-me:</p>
+        <div class="networks">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/jose-lumbo-densenvolvedor-web-full-stack/"><i
+              class="bi bi-linkedin"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="https://github.com/joseLumbo"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+<script src="script.js"></script>
 </body>
-
 </html>
