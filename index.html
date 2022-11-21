@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +8,9 @@
   <title>José Lumbo</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <!-- Cabeçalho -->
   <header id="header">
     <div id="header">
@@ -24,7 +27,10 @@
         <h2>Vem estar mais perto da tecnologia comigo!</h2>
         <h3>José Lumbo, <span> Desenvolvedor FrontEnd</span></h3>
       </div>
-  </header><br><br><br><br>
+  </header>
+
+  <br><br><br><br>
+
   <!-- Áreas de atuação -->
   <main id="expertise-areas" class="text-image-section">
     <div class="title">
@@ -60,7 +66,10 @@
         <span>SpringBoot</span>
       </div>
     </div>
-  </main><br><br><br><br>
+  </main>
+
+  <br><br><br><br>
+
   <!-- Sobre mim -->
   <section id="about">
     <h1 class="sobre">sobre mim</h1>
@@ -70,7 +79,8 @@
         <div class="service-info">
           <h4>DESENVOLVEDOR WEB FRONT END</h4>
           <p>
-            Sou desenvolvedor front-end Junior, Crio e Desenvolvo Sites para Agências e Profissionais de Design. Agência de Criação e Desensenvolvimento Web! Se me contratares terás Programador de Alta Qualidade!
+            Sou desenvolvedor front-end Junior, Crio e Desenvolvo Sites para Agências e Profissionais de Design. Agência
+            de Criação e Desensenvolvimento Web! Se me contratares terás Programador de Alta Qualidade!
           </p>
         </div>
       </div>
@@ -98,23 +108,27 @@
         </div>
       </div>
     </div>
-  </section><br><br><br><br><br><br>
+  </section>
+
+  <br><br><br><br><br><br>
+
   <!-- Contato -->
   <section id="contact" class="text-image-section">
     <div id="contact-information" class="text-container">
       <p class="section-subtitle">Entre em contato</p>
       <span id="msg-erro"></span>
-      <form class="form" id="form" method="POST">
+      <form actio="" class="form" id="form" method="GET">
         <div class="form-control">
-          <input type="text" id="nome"  maxlength="30" placeholder="Nome" />
-          <input type="email" id="email"  maxlength="40" placeholder="E-mail" />
+          <input type="text" id="nome" name="nome" placeholder="Nome" />
+          <input type="email" id="email" name="email" placeholder="E-mail" />
         </div>
-        <input type="number" id="tel"  max="30" placeholder="Telefone" />
-        <textarea id="message"  maxlength="1000" placeholder="Sua mensagem..."></textarea><br>
-        <input id="btn" type="submit" value="Enviar" class="btn" />
+        <input type="tel" id="tel" placeholder="Telefone" name="tel" />
+        <textarea id="message" maxlength="1000" placeholder="Sua mensagem..."></textarea><br>
+        <input id="btn" type="submit" onclick="validar()" value="Enviar" class="btn" />
       </form>
     </div>
   </section>
+
   <!-- Rodapé -->
   <footer id="footer">
     <div class="contact-info">
@@ -139,6 +153,7 @@
     </div>
     </div>
   </footer>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
